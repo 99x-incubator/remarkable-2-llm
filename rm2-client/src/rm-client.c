@@ -1,5 +1,3 @@
-// gcc -o llmtest ./cJSON.c ./test.c -lcurl
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
