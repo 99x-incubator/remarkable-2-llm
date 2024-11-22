@@ -23,7 +23,7 @@ This architecture involves hosting the *Large Language Model Meta AI* (LLAMA) se
 
 - For enterprise clients, this could be a shared internal server instance or cloud.
 - For personal clients, this could be an embedded plugin in reMarkable desktop app.
-- 
+
 We chose LLAMA because it delivers state-of-the-art performance while optimizing resource usage [[2]](#2). LLAMA models come in various parameter sizes, from smaller models suitable for edge deployment to larger, high-performance versions. The model uses attention mechanisms to process sequences of text, making it ideal for applications such as text generation, grammar correction, and summarization. Its modular design facilitates efficient scaling, and with techniques like quantization and distillation, LLAMA models can be optimized for constrained environments, making them a good fit for this client-server setup.
 
 To set up the server, we will use [TinyLLM](https://github.com/jasonacox/TinyLLM). To run an LLM, we need an inference server for the model. For this purpose, we will use [llama-cpp-server](https://github.com/ggerganov/llama.cpp), which is a Python wrapper around [llama.cpp](https://github.com/ggerganov/llama.cpp). This is an efficient C++ implementation of Meta's LLAMA models, designed to run on CPUs.
