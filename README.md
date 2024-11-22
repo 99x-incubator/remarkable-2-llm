@@ -188,6 +188,12 @@ wget  https://huggingface.co/jayakody2000lk/Llama-3.2-3B-Q5_K_M-GGUF/resolve/mai
 
 ```
 
+
+The table below displays the response times for the LLAMA2 and LLAMA3 models when performing grammar correction and summarization tasks. This test was conducted on a system equipped with an 11th Generation Intel® Core™ i7 Processor (1185G7) and 16GB of RAM, without any hardware acceleration.
+
+
+![LLMA3 Performance Data](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/llma2-llma3-perf-chart.png)
+
 To improve output quality and contextual relevance for reMarkable 2, we have integrated [SummLlama3](https://huggingface.co/DISLab/SummLlama3-8B), a specialized version of the LLaMA-3 series that is fine-tuned for summarization, concise completions, and content refinement tasks [[7]](#7).
 
 SummLlama3 is optimized for generating structured and precise responses, making it ideal for summarizing handwritten notes, refining user inputs, or creating concise and accurate text completions. By leveraging its fine-tuning capabilities, the model produces outputs that closely align with the reMarkable 2's emphasis on productivity and note-taking.
