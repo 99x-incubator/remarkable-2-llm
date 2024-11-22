@@ -1,0 +1,48 @@
+# Ignore build directories
+/rm2-client/bin/
+/rm2-client/obj/
+/rm2-client/debug/
+
+# Ignore editor and IDE files
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+*.~*
+
+# Ignore compiled object files
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# Ignore debug files
+*.dSYM/
+*.pdb
+*.ilk
+
+# Ignore temporary files and caches
+*.cache
+*.gch
+*.lock
+
+# Ignore dependency files
+*.d
+*.dep
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
