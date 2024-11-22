@@ -140,24 +140,31 @@ After the compilation, the resulting binary at `/remarkable-2-llm/rm2-client/bin
 [Case 499] - **Spelling Mistakes**:
 
 ![Case 499](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-1.png)
+
 [Case 175] - **Subject-Verb Agreement**:
 
 ![Case 175](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-2.png)
+
 [Case 61] - **Verb Tense Errors**:
 
 ![Case 61](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-3.png)
+
 [Case 236] - **Article Usage**:
 
 ![Case 236](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-4.png)
+
 [Case 319] - **Preposition Usage**:
 
 ![Case 319](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-5.png)
+
 [Case 803] - **Sentence Fragments**:
 
 ![Case 803](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-6.png)
+
 [Case 748] - **Run-on Sentences**:
 
 ![Case 748](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-7.png)
+
 [Case 410] - **Sentence Structure Errors**:
 
 ![Case 410](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-result-8.png)
@@ -168,9 +175,11 @@ During testing, we observed that the LLaMA-2 7B GGUF Q5_0 model occasionally exp
 Performance results with LLAMA2 for 4 queries:
 
 ![LLMA2 Performance Data](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma2-perf-q4.png)
+
 Performance results with LLAMA3 for same 4 queries:
 
 ![LLMA3 Performance Data](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/llma3-perf-q4.png)
+
 The LLaMA-3.2-3B model was deployed into our existing server infrastructure with minimal modifications. The GUFF formatted model was obtained from Hugging Face.
 
 ```bash
@@ -191,15 +200,19 @@ wget  https://huggingface.co/jayakody2000lk/SummLlama3.2-3B-Q5_K_M-GGUF/resolve/
 
 Sample results of SummLlama3 with the few datasets available in Hugging Face:
 
+
 [Case 955] - **Pronoun Errors**:
 
 ![Case 955](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/summllma3-result-1.png)
+
 [Case 998] - **Conjunction Misuse**:
 
 ![Case 998](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/summllma3-result-2.png)
+
 **Summarize input strings**:
 
 ![Summery 1](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/summllma3-result-3.png)
+
 **Summarize input strings**:
 
 ![Summery 2](https://raw.githubusercontent.com/99x-incubator/remarkable-2-llm/refs/heads/main/resources/doc/summllma3-result-4.png)
