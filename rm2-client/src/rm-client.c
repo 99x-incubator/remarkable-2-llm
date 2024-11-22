@@ -11,9 +11,9 @@
 // Define the endpoint URL for the LLM
 #define TINYLLM_REQUEST_CP_ENDPOINT "http://127.0.0.1:8000/v1/chat/completions"
 
-#define ACTION_TEMPLATE_SUMMERY "provide short summery"
-#define ACTION_TEMPLATE_GRAMMER "Fix grammer without explain"
-#define ACTION_TEMPLATE_GENERIC "Correct"
+#define ACTION_TEMPLATE_SUMMERY "[SUMMERY]"
+#define ACTION_TEMPLATE_GRAMMER "[GRAMMER][TYPEERR]"
+#define ACTION_TEMPLATE_GENERIC "[TYPEERR]"
 
 // Structure to handle fetched data
 struct curl_fetch_st {
