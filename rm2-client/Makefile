@@ -1,7 +1,7 @@
-CC ?= gcc
-CXX ?= g++
-CFLAGS := -lcurl
-CXXFLAGS := -lcurl
+CC ?= arm-remarkable-linux-gnueabi-gcc
+CXX ?= arm-remarkable-linux-gnueabi-g++
+CFLAGS := -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=${SDKTARGETSYSROOT} -lcurl
+CXXFLAGS := -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=${SDKTARGETSYSROOT} -lcurl
 DBGFLAGS := -g
 COBJFLAGS := $(CFLAGS) -c
 
